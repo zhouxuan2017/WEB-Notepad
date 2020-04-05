@@ -1,0 +1,31 @@
+{
+  "name": "WEB-Notepad",
+  "version": "1.0.0",
+  "description": "一项记事本项目项目  包括菜单栏编辑区字体设置等等",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-csslint": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-eslint": "^22.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  },
+  "scripts": {
+    "test": "grunt lint && unitTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouxuan2017/WEB-Notepad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouxuan2017/WEB-Notepad/issues"
+  },
+  "homepage": "https://github.com/zhouxuan2017/WEB-Notepad#readme"
+}
