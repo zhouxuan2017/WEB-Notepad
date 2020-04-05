@@ -1,0 +1,33 @@
+.notepad-com-list {
+    user-select: none;
+    width: 200px;
+    margin-top: -10px;
+  }
+  .notepad-com-list .list {
+    /* background-color: white; */
+    border: 1px solid #828790;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 116px;
+    overflow-y: scroll;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 0px;
+    background-color: 'red';
+  }
+
+
+  
+  .notepad-com-list .list .item {
+    line-height: 16px;
+    padding-left: 1px;
+  }
+  
+  .notepad-com-list .list .selected {
+    background-color: #0078d7;
+    color: white;
+  }
+  .notepad-dlg-font .main .font-family, .notepad-dlg-font .main .font-style {
+    display: inline-block;
+    margin-right: 16px;
+}

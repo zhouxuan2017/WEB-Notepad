@@ -1,0 +1,141 @@
+.notepad-menubar {
+    background-color: white;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    user-select: none;
+    z-index: 5;
+  }
+  
+  .notepad-menubar .menu-title {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .notepad-menubar .title {
+    border: 1px solid white;
+    box-sizing: border-box;
+    cursor: default;
+    display: inline-block;
+    font-size: 0.8em;
+    height: 20px;
+    line-height: 18px;
+    text-align: center;
+    width: 54px;
+  }
+  
+  .notepad-menubar .title:hover {
+    box-sizing: border-box;
+    background-color: #cce8ff;
+    border: 1px solid #99d1ff;
+  }
+  
+  .notepad-menubar .menus {
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 5px #a6a6a6;
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 2px;
+    position: absolute;
+    top: 20px;
+    width: 202px;
+  }
+  
+  .notepad-menubar .menu-item {
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    margin-left: 2px;
+    margin-right: 1px;
+    padding-left: 34px;
+    position: relative; 
+  }
+  
+  .notepad-menubar .menu-item:hover {
+    background-color: #99d1ff;
+    height: 22px;
+  }
+  
+  .notepad-menubar .shortcut {
+    position: absolute;
+    right: 20px;
+  }
+  
+  .notepad-menubar .disabled {
+    color: #6d6d6d;
+  }
+  
+  .notepad-menubar .disabled:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .notepad-menubar .menu-hr {
+    border: 1px solid #d7d7d7;
+    display: block;
+    height: 0px;
+    margin: 4px;
+    margin-left: 34px;
+  }
+  
+  .notepad-menubar .checked {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 0;
+    line-height: 22px;
+    text-align: center;
+    background-color: #90c8f6;
+  }
+  .notepad-editor {
+   
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 23px;
+
+  
+}
+.notepad-editor textarea {
+  border-top: 1px solid #d2d2d2;
+  box-sizing: border-box;
+  height: 100%;
+  outline: 0;
+  overflow: scroll;
+  padding: 0 1px;
+  resize: none;
+  width: 100%;
+}
+
+  .notepad-statusbar {
+    background: #f0f0f0;
+    border-top: 1px solid #d7d7d7;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 22px;
+    left: 0;
+    position: fixed;
+    right: 0;
+  }
+  
+  .notepad-statusbar .right-panel {
+    border-left: 1px solid #d7d7d7;
+    bottom: 1px;
+    height: 19px;
+    min-width: 170px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 25%;
+  }
+  
+  .notepad-statusbar .right-panel .row-col {
+    cursor: default;
+    font-size: 1em;
+    line-height: 19px;
+    margin: 0 auto;
+    text-align: center;
+    user-select: none;
+  }
